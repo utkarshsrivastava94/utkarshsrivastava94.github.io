@@ -108,6 +108,16 @@ layout: default
                   </td>
                 </tr>
               {% endif %}
+              {% if cv.profiles %}
+                {% for profile in cv.profiles %}
+                  <tr>
+                    <td class="p-1 pr-2 font-weight-bold"><b>{{ profile.network }}</b></td>
+                    <td class="p-1 pl-2 font-weight-light">
+                      <a href="{{ profile.url }}" target="_blank">{{ profile.url }}</a>
+                    </td>
+                  </tr>
+                {% endfor %}
+              {% endif %}
             </table>
           </div>
         {% endif %}

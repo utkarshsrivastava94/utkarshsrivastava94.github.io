@@ -1,189 +1,197 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
+  name: Utkarsh Srivastava
+  label: Python Automation Engineer | SCADA Specialist | MLOps
+  email: utkarsh.srivastava6002@gmail.com
+  phone: # optional
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: San Antonio
+    region: TX
+  profiles:
+    - network: LinkedIn
+      url: "https://www.linkedin.com/in/utkarshsricsm/"
+    - network: GitHub
+      url: "https://github.com/utkarshsrivastava94"
+
+  summary: >
+    Versatile Python Automation Engineer and SCADA Developer with a Master of Engineering
+    from the Colorado School of Mines. Extensive experience in building high-throughput
+    data pipelines, automating industrial control systems (Ignition and CygNet), and
+    integrating GenAI/MLOps workflows. Proven track record at major enterprises like
+    EOG Resources and Charles Schwab, delivering robust solutions that optimize
+    operational efficiency.
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: EOG Resources
+        position: SCADA Engineer & Python Developer
+        startDate: "2025-06"
+        endDate: "Present"
+        location: San Antonio, TX
         highlights:
-          - Relativity
-          - Description 2.
+          - "SCADA Architecture: Architecting and maintaining scalable SCADA solutions using Ignition and CygNet for real-time monitoring and control of field assets across the San Antonio division."
+          - "Python Automation: Developing Python-based automation scripts to streamline data retrieval, reporting, and real-time asset monitoring, reducing manual engineering effort."
+          - "MLOps Integration: Integrating Machine Learning workflows to enable predictive maintenance and anomaly detection on sensor data streams."
+          - "Reliability: Troubleshooting complex hardware-software communication issues, maintaining 99.9% system availability."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Charles Schwab & Co., Inc.
+        position: Python Automation Engineer
+        startDate: "2021-11"
+        endDate: "2025-04"
+        location: Austin, TX
         highlights:
-          - Description 1.
-          - Description 2.
+          - "ThousandEyes Collector: Built a high-throughput Python service using asyncio and multiprocessing to execute 3,000+ API calls/min, streaming telemetry to Kafka for real-time analysis and anomaly detection."
+          - "Server Readiness Platform: Built a Django-based automation platform for server readiness validation with API checks integrated with Docker Swarm, improving incident response and reducing manual effort 5x."
+          - "Certificate Automation: Automated Venafi-based certificate provisioning integrated with ITSM workflows, cutting provisioning time from 3 hours to 30 minutes."
+          - "Observability: Enhanced hybrid-cloud observability by integrating telemetry with Azure Monitor and AWS CloudWatch, enabling cross-platform operational visibility."
+          - "Infrastructure Automation: Created and maintained 100+ SALT scripts for automating Windows/Linux configurations and application provisioning across on-prem, AWS EC2, and internal cloud environments."
+          - "MLOps Pipelines: Collaborated with internal data science teams to automate model validation workflows and set up secure, scalable CI/CD pipelines for ML using BitBucket, Bamboo, and Harness."
+          - "Mentorship: Mentored engineers on SALT automation patterns, documentation best practices, and ML pipeline deployment standards."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Dew Software
+        position: Automation Engineer
+        startDate: "2020-06"
+        endDate: "2020-10"
+        location: Golden, CO
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Energy Analytics: Developed Python tools and dashboards to visualize energy market trends using Pandas, Matplotlib, and PostgreSQL, sourcing data from AWS-hosted energy datasets."
+          - "ML Foundation: Built analytics workflows that served as the foundation for ML-based forecasting models, collaborating with data teams on pre-processing and transformation steps."
+          - "Cloud Deployment: Deployed scalable dashboards using Azure App Services integrated with Azure Blob Storage for secure data handling."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Payne Institute for Public Policy, Colorado School of Mines
+        position: Research Associate
+        startDate: "2020-01"
+        endDate: "2020-05"
+        location: Golden, CO
+        highlights:
+          - "Energy Policy Research: Conducted data-driven research on global energy markets, focusing on the environmental and economic impacts of gas flaring."
+          - "Satellite Data Analysis: Analyzed satellite data and regulatory frameworks to publish policy recommendations for North Dakota and India energy sectors."
+          - "Publications: Co-authored reports and peer-reviewed papers utilized by policymakers to assess flaring reduction strategies."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: ABB
+        position: Market Analyst
+        startDate: "2019-08"
+        endDate: "2019-12"
+        location: Broomfield, CO
+        highlights:
+          - "Automation: Reduced weekly workload by 20% by automating data collection and cleaning from 10+ journals using Python."
+          - "Cost Savings: Saved $45K/year by comparing proprietary vs. open-source Global Gas Models and recommending cost-effective solutions."
+          - "Optimization Models: Built LP optimization models to forecast LNG prices across global trading hubs and integrated fleet usage optimization using mixed-integer linear programming."
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Education:
+      - institution: Colorado School of Mines
+        area: Petroleum Engineering
+        studyType: Master of Engineering
+        startDate: "2017"
+        endDate: "2019"
+        location: Golden, CO
+        highlights:
+          - Reservoir Engineering & Production Optimization
+          - Economic Feasibility Analysis (Techlog, PIPESIM, SPOTFIRE)
+          - Hydrocarbon Volumetric Analysis & Decline Curve Analysis
+          - Energy Market Modeling & LP Optimization
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - institution: BITS Pilani
+        area: Chemical Engineering
+        studyType: Bachelor of Engineering (Hons.)
+        startDate: "2013"
+        endDate: "2017"
+        location: Goa, India
+        highlights:
+          - Chemical Process Engineering
+          - Thermodynamics & Heat Transfer
+          - SAE BAJA - All-terrain vehicle design competition
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Languages
+        keywords:
+          - Python (asyncio, multiprocessing)
+          - SQL
+          - Bash
+      - name: SCADA & Industrial
+        keywords:
+          - Ignition (Core & Advanced Scripting Certified)
+          - CygNet
+          - MQTT
+          - Sparkplug B
+      - name: Data & MLOps
+        keywords:
+          - PostgreSQL
+          - MS SQL Server
+          - Docker
+          - GenAI/LLM Integration
+          - Kafka
+      - name: Cloud & Infrastructure
+        keywords:
+          - AWS (EC2, S3, CloudWatch)
+          - Azure (Monitor, App Services, Blob Storage)
+          - OpenShift
+      - name: Automation & DevOps
+        keywords:
+          - SALT
+          - Django
+          - FastAPI
+          - Bamboo
+          - BitBucket
+          - Harness
+          - Git
+          - JIRA
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Ignition Core Certified
+        issuer: Inductive Automation
+        date: # add date if known
+      - name: Ignition Advanced Scripting Certified
+        issuer: Inductive Automation
+        date: # add date if known
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Electricity Load Forecasting API
+        date: "May 2025 - Jun 2025"
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Developed and deployed an end-to-end ML system for forecasting hourly electricity demand using real-world weather and load data."
+          - "Trained a RandomForestRegressor model achieving R2 = 0.991 on Kaggle time-series data."
+          - "Engineered lag-based and time-based features for improved forecasting accuracy."
+          - "Deployed using FastAPI with live REST inference; implemented structured logging and monitoring for API usage."
+          - "Skills: Python, Scikit-learn, FastAPI, Time Series Forecasting, REST APIs, Uvicorn."
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Economic Feasibility Analysis of Wells (Techlog)
+        date: "Apr 2018 - May 2018"
+        highlights:
+          - "Analyzed an exploratory well using Techlog to determine OOIP parameters including porosity, permeability, lithology, and water saturation."
+          - "Identified pay zone depths and thickness for both exploratory and infill wells."
+          - "Performed economic analysis and ROI calculations to evaluate viability of future drilling operations."
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Reservoir & Production Optimization (San Joaquin Basin)
+        date: "Apr 2018 - May 2018"
+        highlights:
+          - "Analyzed production data using SPOTFIRE to identify operator and decline rates, obtaining P10, P50, and P90 classifications."
+          - "Performed PIPESIM simulations to identify production-enhancing parameters and test economic viability."
+          - "Executed a 5-point waterflooding MATLAB simulation; determined waterflooding effectiveness and optimized production tubing diameter."
+
+      - name: Hydrocarbon Prediction & Volumetric Analysis (Surfer)
+        date: "Nov 2017 - Dec 2017"
+        highlights:
+          - "Conducted volumetric analysis on 25 wells in Surfer to estimate encroached oil and gas in the reservoir."
+          - "Performed material balance calculations to estimate recovery factors and EUR at low pressures."
+          - "Conducted Decline Curve Analysis (DCA) on 16 years of historical data to predict future production."
+
+      - name: SAE BAJA - Inter University National Competition
+        date: "May 2015 - Feb 2016"
+        highlights:
+          - "Designed a centrally mounted steering column with tilting provision using pillow block bearings."
+          - "Designed double wishbone suspension with dampers for both rear and front of vehicle (SHARK)."
+          - "Participated in full assembly and track testing of the all-terrain vehicle."
+
+    Interests:
+      - name: Engineering
+        keywords:
+          - SCADA systems and industrial automation
+          - Machine learning for predictive maintenance
+      - name: Energy
+        keywords:
+          - Energy market modeling and policy
+      - name: Photography
+        keywords:
+          - Landscape
+          - Wildlife
+          - Portrait
