@@ -1,6 +1,6 @@
 cv:
   name: Utkarsh Srivastava
-  label: Python Automation Engineer | SCADA Specialist | MLOps
+  label: SCADA Specialist | Python Automation Engineer | MLOps
   email: utkarsh.srivastava6002@gmail.com
   phone: # optional
   address:
@@ -139,10 +139,10 @@ cv:
     Certificates:
       - name: Ignition Core Certified
         issuer: Inductive Automation
-        date: # add date if known
+        date: # add date
       - name: Ignition Advanced Scripting Certified
         issuer: Inductive Automation
-        date: # add date if known
+        date: # add date
 
     Projects:
       - name: Electricity Load Forecasting API

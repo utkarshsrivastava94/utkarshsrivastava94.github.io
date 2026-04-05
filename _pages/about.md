@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Python Automation Engineer | SCADA Specialist | MLOps
+subtitle: SCADA Specialist | Python Automation Engineer | MLOps
 
 profile:
   align: right

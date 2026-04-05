@@ -2,7 +2,7 @@
 
 ## Repository Overview
 
-**al-folio** is a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics and researchers. It enables users to create professional portfolio and blog websites with minimal configuration. The repository serves both as a template and as a reference implementation.
+**al-folio** is a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics and researchers. It enables users to create professional photography and blog websites with minimal configuration. The repository serves both as a template and as a reference implementation.
 
 - **Type:** Jekyll static site generator template
 - **Target Users:** Academics, researchers, and professionals

@@ -69,7 +69,7 @@ repo_trophies:
   theme_dark: gitdimmed
 
 # -----------------------------------------------------------------------------
-# Collections  (projects + portfolio sub-categories)
+# Collections  (projects + photography sub-categories)
 # -----------------------------------------------------------------------------
 
 collections:
@@ -84,16 +84,16 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  # ── Photography portfolio collections (add later) ──────────────────────────
+  # ── Photography photography collections (add later) ──────────────────────────
   landscape:
     output: true
-    permalink: /portfolio/landscape/:path/
+    permalink: /photography/landscape/:path/
   wildlife:
     output: true
-    permalink: /portfolio/wildlife/:path/
+    permalink: /photography/wildlife/:path/
   portrait:
     output: true
-    permalink: /portfolio/portrait/:path/
+    permalink: /photography/portrait/:path/
 
 # -----------------------------------------------------------------------------
 # Scholar / Publications
