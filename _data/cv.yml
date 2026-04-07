@@ -1,8 +1,9 @@
 cv:
   name: Utkarsh Srivastava
-  label: SCADA Specialist | Python Automation Engineer | MLOps
+  label: Python Automation Engineer | SCADA Specialist | MLOps
   email: utkarsh.srivastava6002@gmail.com
   phone: # optional
+  website: https://utkarshsrivastava94.github.io
   address:
     city: San Antonio
     region: TX
@@ -28,10 +29,12 @@ cv:
         endDate: "Present"
         location: San Antonio, TX
         highlights:
-          - "SCADA Architecture: Architecting and maintaining scalable SCADA solutions using Ignition and CygNet for real-time monitoring and control of field assets across the San Antonio division."
-          - "Python Automation: Developing Python-based automation scripts to streamline data retrieval, reporting, and real-time asset monitoring, reducing manual engineering effort."
-          - "MLOps Integration: Integrating Machine Learning workflows to enable predictive maintenance and anomaly detection on sensor data streams."
-          - "Reliability: Troubleshooting complex hardware-software communication issues, maintaining 99.9% system availability."
+          - "Architecting and maintaining scalable SCADA solutions using Ignition and CygNet for the San Antonio division."
+          - "Developing Python-based automation scripts to streamline data retrieval, reporting, and real-time monitoring of field assets."
+          - "Integrating Machine Learning workflows (MLOps) to enable predictive maintenance and anomaly detection on sensor data."
+          - "Troubleshooting complex hardware-software communication issues, reducing downtime and ensuring 99.9% system availability."
+          - "Worked with Emerson and Allen Bradley devices for field instrumentation and control, configuring communication interfaces and troubleshooting device-level issues to ensure seamless integration with SCADA systems."
+          - "Developed and delivered a structured onboarding training module for new joinees covering SCADA fundamentals, site-specific workflows, and Python automation standards, reducing ramp-up time for incoming engineers."
 
       - company: Charles Schwab & Co., Inc.
         position: Python Automation Engineer
@@ -39,13 +42,16 @@ cv:
         endDate: "2025-04"
         location: Austin, TX
         highlights:
-          - "ThousandEyes Collector: Built a high-throughput Python service using asyncio and multiprocessing to execute 3,000+ API calls/min, streaming telemetry to Kafka for real-time analysis and anomaly detection."
-          - "Server Readiness Platform: Built a Django-based automation platform for server readiness validation with API checks integrated with Docker Swarm, improving incident response and reducing manual effort 5x."
-          - "Certificate Automation: Automated Venafi-based certificate provisioning integrated with ITSM workflows, cutting provisioning time from 3 hours to 30 minutes."
-          - "Observability: Enhanced hybrid-cloud observability by integrating telemetry with Azure Monitor and AWS CloudWatch, enabling cross-platform operational visibility."
-          - "Infrastructure Automation: Created and maintained 100+ SALT scripts for automating Windows/Linux configurations and application provisioning across on-prem, AWS EC2, and internal cloud environments."
-          - "MLOps Pipelines: Collaborated with internal data science teams to automate model validation workflows and set up secure, scalable CI/CD pipelines for ML using BitBucket, Bamboo, and Harness."
-          - "Mentorship: Mentored engineers on SALT automation patterns, documentation best practices, and ML pipeline deployment standards."
+          - "Developed the ThousandEyes Collector, a high-throughput Python service using asyncio and multiprocessing to make 3,000+ API calls/min, streaming telemetry to Kafka for real-time analysis and anomaly detection."
+          - "Built a Django-based automation platform for server readiness validation with API checks, integrated with Docker Swarm, improving incident response and reducing manual effort 5x."
+          - "Automated Venafi-based certificate provisioning and integrated it with ITSM workflows, cutting provisioning time from 3 hours to 30 minutes."
+          - "Enhanced hybrid-cloud observability by integrating telemetry with Azure Monitor and AWS CloudWatch, enabling cross-platform operational visibility."
+          - "Created and maintained 100+ SALT scripts for automating Windows/Linux configurations and application provisioning across on-prem, AWS EC2, and internal cloud environments."
+          - "Developed CI/CD pipelines using Bamboo integrated with Azure Repos and AWS S3, enabling seamless deployment of cloud-native and hybrid applications."
+          - "Collaborated with internal data science teams to support MLOps initiatives, automating model validation workflows and setting up secure, scalable CI/CD pipelines for ML using BitBucket, Bamboo, and Harness."
+          - "Supported OpenShift-based container orchestration for production deployments; collaborated with platform teams to build reusable Python scripts for ML retraining job triggers and application telemetry."
+          - "Introduced automation workflows for staging ML models, significantly reducing manual effort and increasing reliability of model handoffs to dev teams."
+          - "Mentored engineers on SALT automation patterns, documentation best practices, and ML pipeline deployment standards."
 
       - company: Dew Software
         position: Automation Engineer
@@ -53,9 +59,9 @@ cv:
         endDate: "2020-10"
         location: Golden, CO
         highlights:
-          - "Energy Analytics: Developed Python tools and dashboards to visualize energy market trends using Pandas, Matplotlib, and PostgreSQL, sourcing data from AWS-hosted energy datasets."
-          - "ML Foundation: Built analytics workflows that served as the foundation for ML-based forecasting models, collaborating with data teams on pre-processing and transformation steps."
-          - "Cloud Deployment: Deployed scalable dashboards using Azure App Services integrated with Azure Blob Storage for secure data handling."
+          - "Developed Python tools and dashboards to visualize energy market trends using Pandas, Matplotlib, and PostgreSQL; sourced data from AWS-hosted energy datasets."
+          - "Built analytics workflows that served as the foundation for ML-based forecasting models, collaborating with data teams on pre-processing and transformation steps."
+          - "Deployed scalable dashboards using Azure App Services and integrated with Azure Blob Storage for secure data handling."
 
       - company: Payne Institute for Public Policy, Colorado School of Mines
         position: Research Associate
@@ -63,9 +69,9 @@ cv:
         endDate: "2020-05"
         location: Golden, CO
         highlights:
-          - "Energy Policy Research: Conducted data-driven research on global energy markets, focusing on the environmental and economic impacts of gas flaring."
-          - "Satellite Data Analysis: Analyzed satellite data and regulatory frameworks to publish policy recommendations for North Dakota and India energy sectors."
-          - "Publications: Co-authored reports and peer-reviewed papers utilized by policymakers to assess flaring reduction strategies."
+          - "Conducted data-driven research on global energy markets, focusing on the environmental and economic impacts of gas flaring."
+          - "Analyzed satellite data and regulatory frameworks to publish policy recommendations for North Dakota and India energy sectors."
+          - "Co-authored reports and peer-reviewed papers utilized by policy makers to assess flaring reduction strategies."
 
       - company: ABB
         position: Market Analyst
@@ -73,9 +79,11 @@ cv:
         endDate: "2019-12"
         location: Broomfield, CO
         highlights:
-          - "Automation: Reduced weekly workload by 20% by automating data collection and cleaning from 10+ journals using Python."
-          - "Cost Savings: Saved $45K/year by comparing proprietary vs. open-source Global Gas Models and recommending cost-effective solutions."
-          - "Optimization Models: Built LP optimization models to forecast LNG prices across global trading hubs and integrated fleet usage optimization using mixed-integer linear programming."
+          - "Reduced weekly workload by 20% by automating data collection and cleaning from 10+ journals using Python."
+          - "Saved $45K/year by comparing proprietary vs. open-source Global Gas Models and recommending cost-effective solutions."
+          - "Developed global optimization and forecasting models to support strategic business decisions regarding natural gas CAPEX and OPEX pricing."
+          - "Built LP optimization models to forecast LNG prices across global trading hubs."
+          - "Integrated fleet usage optimization using mixed-integer linear programming in Python to improve logistics planning."
 
     Education:
       - institution: Colorado School of Mines
@@ -113,6 +121,8 @@ cv:
           - CygNet
           - MQTT
           - Sparkplug B
+          - Emerson
+          - Allen Bradley
       - name: Data & MLOps
         keywords:
           - PostgreSQL
@@ -139,10 +149,10 @@ cv:
     Certificates:
       - name: Ignition Core Certified
         issuer: Inductive Automation
-        date: # add date
+        date: # add date if known
       - name: Ignition Advanced Scripting Certified
         issuer: Inductive Automation
-        date: # add date
+        date: # add date if known
 
     Projects:
       - name: Electricity Load Forecasting API
