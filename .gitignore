@@ -16,3 +16,4 @@ node_modules/
 vendor
 assets/img/photography/**/originals/
 watermark.png
+.claude/
