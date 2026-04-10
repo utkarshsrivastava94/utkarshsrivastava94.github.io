@@ -24,7 +24,7 @@ cv:
   sections:
     Experience:
       - company: EOG Resources
-        logo: /assets/img/logos/eog.png
+        logo: /assets/img/logos/eog.jpg
         position: SCADA Engineer & Python Developer
         startDate: "2025-06"
         endDate: "Present"
@@ -38,7 +38,7 @@ cv:
           - "Developed and delivered a structured onboarding training module for new joinees covering SCADA fundamentals, site-specific workflows, and Python automation standards, reducing ramp-up time for incoming engineers."
 
       - company: Charles Schwab & Co., Inc.
-        logo: /assets/img/logos/schwab.png
+        logo: /assets/img/logos/schwab.jpg
         position: Python Automation Engineer
         startDate: "2021-11"
         endDate: "2025-04"
@@ -67,7 +67,7 @@ cv:
           - "Deployed scalable dashboards using Azure App Services and integrated with Azure Blob Storage for secure data handling."
 
       - company: Payne Institute for Public Policy, Colorado School of Mines
-        logo: /assets/img/logos/payne.png
+        logo: /assets/img/logos/payne.jpg
         position: Research Associate
         startDate: "2020-01"
         endDate: "2020-05"

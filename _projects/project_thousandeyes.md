@@ -2,7 +2,7 @@
 layout: page
 title: ThousandEyes Telemetry Collector
 description: High-throughput Python API collector streaming 3,000+ calls/min to Kafka for real-time network telemetry.
-img: assets/img/projects/telemetry.jpg   # optional
+img: assets/img/projects/telemetry.png
 importance: 2
 category: work
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Hydrocarbon Prediction & Volumetric Analysis
 description: Surfer-based volumetric analysis of 25 wells to estimate oil and gas recovery factors and predict future production.
-img: assets/img/projects/volumetric.jpg
+img: assets/img/projects/volumetric.png
 importance: 4
 category: work
 ---

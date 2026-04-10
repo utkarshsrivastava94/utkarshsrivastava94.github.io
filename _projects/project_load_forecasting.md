@@ -2,7 +2,7 @@
 layout: page
 title: Electricity Load Forecasting API
 description: End-to-end ML system for hourly electricity demand forecasting with FastAPI deployment.
-img: assets/img/projects/load_forecasting.jpg
+img: assets/img/projects/load_forecasting.png
 importance: 1
 category: fun
 ---
