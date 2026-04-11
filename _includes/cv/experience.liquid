@@ -9,7 +9,14 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <div class="cv-date-col text-center">
+          {% if entry.logo %}
+            <div class="cv-logo-wrapper">
+              <img src="{{ entry.logo | relative_url }}" alt="{{ entry.company | default: entry.name }} logo" class="cv-institution-logo"
+                onerror="this.style.display='none';">
+            </div>
+          {% endif %}
+
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -18,7 +25,6 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
@@ -30,7 +36,7 @@
             <tbody>
               <tr>
                 <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle cv-year-label">{{ date }}</span>
                 </td>
               </tr>
               {% capture location %}
@@ -49,7 +55,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-body mt-2 mt-md-0">
           {% capture position_title %}
             {% if entry.position %}{{ entry.position }}{% endif %}
           {% endcapture %}
@@ -66,22 +72,7 @@
             {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
           {% endcapture %}
           {% if company_name != '' %}
-            <table class="table-cv ml-1 ml-md-4 institution">
-              <tbody>
-                <tr>
-                  <td style="vertical-align: middle; text-align: center; width: 36px;" class="institution">
-                    {% if entry.logo %}
-                      <img src="{{ entry.logo | relative_url }}" alt="{{ company_name | strip }} logo" class="cv-institution-logo"
-                        onerror="this.style.display='none'; this.parentElement.querySelector('i').style.display='inline-block';">
-                      <i class="fa-solid fa-building-columns iconinstitution" style="display:none;"></i>
-                    {% else %}
-                      <i class="fa-solid fa-building-columns iconinstitution"></i>
-                    {% endif %}
-                  </td>
-                  <td class="institution" style="font-size: 0.95rem">{{ company_name }}</td>
-                </tr>
-              </tbody>
-            </table>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
           {% endif %}
 
           {% if entry.summary %}

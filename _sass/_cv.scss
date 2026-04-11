@@ -68,11 +68,32 @@ table.institution {
   margin-bottom: 1rem;
 }
 
+.cv-date-col {
+  flex: 0 0 auto;
+  width: 150px;
+  min-width: 120px;
+  text-align: center;
+  padding-right: 0.5rem;
+}
+
+.cv-entry-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.cv-logo-wrapper {
+  margin-bottom: 0.75rem;
+}
+
 .cv-institution-logo {
-  height: 24px;
-  width: auto;
-  max-width: 36px;
+  max-width: 120px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
+}
+
+.cv-year-label {
+  min-width: 75px;
 }
 
 td.department {
