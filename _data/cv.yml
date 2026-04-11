@@ -92,6 +92,7 @@ cv:
 
     Education:
       - institution: Colorado School of Mines
+        logo: /assets/img/logos/mines.jpg
         area: Petroleum Engineering
         studyType: Master of Engineering
         startDate: "2017"
@@ -104,6 +105,7 @@ cv:
           - Energy Market Modeling & LP Optimization
 
       - institution: BITS Pilani
+        logo: /assets/img/logos/bits.png
         area: Chemical Engineering
         studyType: Bachelor of Engineering (Hons.)
         startDate: "2013"
