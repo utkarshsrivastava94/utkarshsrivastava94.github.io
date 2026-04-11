@@ -9,7 +9,14 @@
   {% for entry in entries %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <div class="cv-date-col text-center">
+          {% if entry.logo %}
+            <div class="cv-logo-wrapper">
+              <img src="{{ entry.logo | relative_url }}" alt="{{ entry.institution }} logo" class="cv-institution-logo"
+                onerror="this.style.display='none';">
+            </div>
+          {% endif %}
+
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -18,7 +25,6 @@
           {% endcapture %}
 
           {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
@@ -31,7 +37,7 @@
               <tr>
                 <td>
                   {% if date %}
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle cv-year-label">{{ date }}</span>
                   {% endif %}
                 </td>
               </tr>
@@ -51,7 +57,7 @@
             </tbody>
           </table>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="cv-entry-body mt-2 mt-md-0">
           {% capture study_type %}
             {% if entry.studyType %}{{ entry.studyType }}{% elsif entry.degree %}{{ entry.degree }}{% endif %}
           {% endcapture %}
