@@ -112,7 +112,7 @@ nav_order: 5
 
 .photography-contact {
   margin-bottom: 1.5rem;
-  text-align: center;
+  text-align: left;
   font-size: 1.05rem;
   color: var(--global-text-color);
 }
