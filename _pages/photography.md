@@ -7,6 +7,10 @@ nav: true
 nav_order: 5
 ---
 
+<div class="photography-contact">
+  <p>If you would like to purchase any photo or would like to collaborate with me for a photoshoot, please reach out to me at <a href="mailto:utkarsh.srivastava6002@gmail.com">utkarsh.srivastava6002@gmail.com</a>.</p>
+</div>
+
 <div class="photography-landing">
   <a href="/photography/landscape/" class="photography-card">
     <div class="photography-card-img-wrapper">
@@ -37,10 +41,6 @@ nav_order: 5
       <p class="photography-card-subtitle">People and character studies</p>
     </div>
   </a>
-</div>
-
-<div class="photography-contact">
-  <p>If you would like to purchase any photo or would like to collaborate with me for a photoshoot, please reach out to me on my <a href="mailto:utkarsh.srivastava6002@gmail.com">Email</a>.</p>
 </div>
 
 <style>
@@ -111,7 +111,7 @@ nav_order: 5
 }
 
 .photography-contact {
-  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   font-size: 1.05rem;
   color: var(--global-text-color);
