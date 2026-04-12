@@ -39,6 +39,10 @@ nav_order: 5
   </a>
 </div>
 
+<div class="photography-contact">
+  <p>If you would like to purchase any photo or would like to collaborate with me for a photoshoot, please reach out to me on my <a href="mailto:utkarsh.srivastava6002@gmail.com">Email</a>.</p>
+</div>
+
 <style>
 .photography-landing {
   display: flex;
@@ -104,5 +108,22 @@ nav_order: 5
   color: rgba(255,255,255,0.85);
   font-size: 1rem;
   margin: 0.3rem 0 0 0;
+}
+
+.photography-contact {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--global-text-color);
+}
+
+.photography-contact a {
+  color: var(--global-theme-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.photography-contact a:hover {
+  text-decoration: underline;
 }
 </style>
